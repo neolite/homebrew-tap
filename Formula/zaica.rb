@@ -7,20 +7,20 @@ class Zaica < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-aarch64-macos.tar.gz"
-      sha256 "79814c899f0093344d44fde7c9c9c2a8f774cfc47fcbd3209ade0a77727fa871"
+      sha256 "c2950ce258b5f2e0605675422c29f0ff5098b7dfd9d7d9f863c07a71b6e32c20"
     else
       url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-x86_64-macos.tar.gz"
-      sha256 "5428371f320ed69798e41c30e4014611376662b348c469fe4787166e23767386"
+      sha256 "7637c3ac01d9907c4ccc7576766570ef406a390b385a8a7a1a18e4121d19b449"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-aarch64-linux.tar.gz"
-      sha256 "bf4096ae65e08ac8e4f667973ec9f694808e3564cb290f5883006d7eaaaaffb8"
+      sha256 "df5f16ced8860e09ef2c72e513974e77b4659ad45d1be29dbdd45ee85c0022f3"
     else
       url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-x86_64-linux.tar.gz"
-      sha256 "6c5608b2590cc9b6640a7a381702622e31297cff002e7159a081592caea0413c"
+      sha256 "e6a18d6d0744e4ab26e31813c750ca0a05eb817bfb8213d15fda3a1c61da6844"
     end
   end
 
