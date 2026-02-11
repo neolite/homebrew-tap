@@ -1,26 +1,26 @@
 class Zaica < Formula
   desc "Zig-based AI coding agent CLI"
   homepage "https://github.com/neolite/zaica"
-  version "0.4-alpha"
+  version "0.5-alpha"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-aarch64-macos.tar.gz"
-      sha256 "c2950ce258b5f2e0605675422c29f0ff5098b7dfd9d7d9f863c07a71b6e32c20"
+      url "https://github.com/neolite/zaica/releases/download/v0.5-alpha/zc-v0.5-alpha-aarch64-macos.tar.gz"
+      sha256 "b40db9601eb0f002ac6f78edc3beefdb934442105199a824a4d0ac13a7f6d7e4"
     else
-      url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-x86_64-macos.tar.gz"
-      sha256 "7637c3ac01d9907c4ccc7576766570ef406a390b385a8a7a1a18e4121d19b449"
+      url "https://github.com/neolite/zaica/releases/download/v0.5-alpha/zc-v0.5-alpha-x86_64-macos.tar.gz"
+      sha256 "2ea60d2c04bed238d23538866acd2867ab78516f739d2a6da16697f806c116f7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-aarch64-linux.tar.gz"
-      sha256 "df5f16ced8860e09ef2c72e513974e77b4659ad45d1be29dbdd45ee85c0022f3"
+      url "https://github.com/neolite/zaica/releases/download/v0.5-alpha/zc-v0.5-alpha-aarch64-linux.tar.gz"
+      sha256 "9a1fffa56e3bf4bbf6a7c76d1ecf51d1528f1604d046e243d9aa546d35a22822"
     else
-      url "https://github.com/neolite/zaica/releases/download/v0.4-alpha/zc-v0.4-alpha-x86_64-linux.tar.gz"
-      sha256 "e6a18d6d0744e4ab26e31813c750ca0a05eb817bfb8213d15fda3a1c61da6844"
+      url "https://github.com/neolite/zaica/releases/download/v0.5-alpha/zc-v0.5-alpha-x86_64-linux.tar.gz"
+      sha256 "efe1aa77b2ff199295fcc3ecc586f6b576598c5abb8fe24f09a509deb8c5f9de"
     end
   end
 
